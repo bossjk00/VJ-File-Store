@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://envs.sh/v9H.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Leech_67bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Filestore_jkbot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
